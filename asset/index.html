@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="script.js">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><DevGabrielTeles></title>
+</head>
+
+<body>
+
+<!-- menu tela>1200px foto perfil, nome e redes sociais -->
+  <header>
+    <div class="navegacao">
+    <div class="container">
+      <div class="container-child">
+      <img style="width: 150px;" src="./img/perfil3.png" alt="Imagem de perfil">
+      </div>
+
+      <h1>
+      <a class="name" href="index.html">Gabriel Teles</a>
+      </h1>
+
+      <div class="containe">
+        <a id="social" class="links-socialmedia" href="https://www.linkedin.com/in/gabrieltelessantos/"> <i class="uil uil-linkedin-alt"></i> </a>
+        <a id="social" class="links-socialmedia" href="https://www.instagram.com/gabrielj4f/"> <i class="uil uil-instagram"></i> </a>
+        <a id="social" class="links-socialmedia" href="https://github.com/devgabrielteles"> <i class="uil uil-github-alt"></i> </a>
+      </div>
+    </div>
+
+  <nav id="navbar" class="sidenav">
+    <ul>
+      <li><a class="nav-link" href="index.html"> <i class="uil uil-home"></i> Início</a></li>
+      <li><a class="nav-link" href="#Sobre"> <i class="uil uil-user"></i> Sobre</a></li>
+      <li><a class="nav-link" href="#Currículo"> <i class="uil uil-file"></i> Currículo</a></li>
+      <li><a class="nav-link" href="#Portfólio "> <i class="uil uil-book-open"></i> Portfólio</a></li>
+      <li><a class="nav-link" href="#Contato"> <i class="uil uil-envelope-alt"></i> Contato</header></a></li>
+    </ul>
+  </nav>
+  </div>
+</header>
+
+
+  <!-- menu tela <1200px -->
+  <nav class="mininavbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+          <path d="M2,5 28,5" stroke="#fff" stroke-width="4" />
+          <path d="M2,14 28,14" stroke="#fff" stroke-width="4" />
+          <path d="M2,23 28,23" stroke="#fff" stroke-width="4" />
+        </svg>
+      </a>
+    </span>
+  </nav>
+
+<div class="side-nav" id="side-menu">
+    <ul>
+      <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+      <div class="container">
+        <div class="container-child">
+          <img style="width: 150px;" src="./img/perfil3.png" alt="Imagem de perfil">
+        </div>
+      
+        <h1>
+          <a class="name" href="index.html">Gabriel Teles</a>
+        </h1>
+      
+        <div class="containe">
+          <a id="social" class="links-socialmedia" href="https://www.linkedin.com/in/gabrieltelessantos/"> <i
+              class="uil uil-linkedin-alt"></i> </a>
+          <a id="social" class="links-socialmedia" href="https://www.instagram.com/gabrielj4f/"> <i
+              class="uil uil-instagram"></i> </a>
+          <a id="social" class="links-socialmedia" href="https://github.com/devgabrielteles"> <i
+              class="uil uil-github-alt"></i> </a>
+        </div>
+      </div>
+      
+      <nav id="navbar" class="sidenav">
+        <ul>
+          <li><a class="nav-link" href="index.html"> <i class="uil uil-home"></i> Início</a></li>
+          <li><a class="nav-link" href="#Sobre"> <i class="uil uil-user"></i> Sobre</a></li>
+          <li><a class="nav-link" href="#Currículo"> <i class="uil uil-file"></i> Currículo</a></li>
+          <li><a class="nav-link" href="#Portfólio "> <i class="uil uil-book-open"></i> Portfólio</a></li>
+          <li><a class="nav-link" href="#Contato"> <i class="uil uil-envelope-alt"></i> Contato</header></a></li>
+        </ul>
+      </nav>
+</div>
+
+
+
+<!-- imagem inicial com animação parallax pura -->
+<div class="wrapper">
+    <main>
+    <section class="module parallax parallax-1 background">
+      <h3>Gabriel Teles</h3>
+      <p id="escrita digitando">Eu sou</p>
+    </section>
+
+    <section class="module content">
+      <div class="container-2">
+        <h2>Sobre</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In incidunt esse exercitationem tenetur suscipit nisi
+          aperiam, consequatur ipsa quod reprehenderit dolore perspiciatis veritatis consequuntur at deserunt? Soluta nemo
+          velit animi.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In incidunt esse exercitationem tenetur suscipit nisi
+          aperiam, consequatur ipsa quod reprehenderit dolore perspiciatis veritatis consequuntur at deserunt? Soluta nemo
+          velit
+          animi.
+        </p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<!-- unico script do site -->
+    <script>
+      function openSlideMenu() {
+        document.getElementById('side-menu').style.width = '100%';
+      }
+
+      function closeSlideMenu() {
+        document.getElementById('side-menu').style.width = '0px';
+      }
+    </script>
+</body>
+
+</html>
