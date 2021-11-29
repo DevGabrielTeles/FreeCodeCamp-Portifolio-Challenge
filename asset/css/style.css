@@ -308,14 +308,28 @@ section.module.parallax p {
 /* Sobre */
 h2 {
   font-size: 2rem;
-
   color: #1454dd;
 }
 
 h4 {
   font-size: 1.5rem;
-
   color: #1454dd;
+}
+
+h2::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: currentColor;
+  display: block;
+}
+
+h5::after {
+  content: "";
+  width: 50px;
+  height: 4px;
+  background: currentColor;
+  display: block;
 }
 
 /* Habilidades */
@@ -376,11 +390,14 @@ section.asd {
 
 div.container-4 img {
   width: 100px;
+  margin: 5px;
   justify-content: center;
   align-content: center;
 }
 
 div.container-4 {
+  width: fit-content;
+  margin-left: 300px;
   background: #f1f1f1;
   display: flex;
   flex-wrap: wrap;
@@ -391,9 +408,102 @@ div.container-4 {
   padding-bottom: 30px;
 }
 
+/* seção curriculo */
+h5 {
+  margin-left: 300px;
+  font-size: 2rem;
+  color: #1454dd;
+  padding-bottom: 20px;
+  padding-top: 48px;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 60px;
+}
+
+h6 {
+  position: relative;
+  top: -15px;
+  font-size: 1.5rem;
+  color: #1454dd;
+}
+
+div.container-5 p,
+div.container-5 h2 {
+  background-color: #ffffff;
+  margin-left: 300px;
+  text-align: justify;
+}
+
+.forcaquevai {
+  margin-left: 300px !important;
+}
+.module2 {
+  padding-left: 50px;
+  margin: 0 auto;
+  text-align: justify;
+  z-index: 0.2;
+}
+
+section#curriculo p.nomi {
+  position: relative;
+  top: -20px;
+}
+
+section#curriculo ul {
+  list-style: none;
+}
+
+section#curriculo li {
+  margin-top: 20px;
+}
+
+section.curriculo {
+  background-color: #ffffff;
+  margin-left: 300px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: justify;
+  padding: 40px;
+}
+
+.esquerda {
+  width: 100%;
+  border-left: 2px solid #1f5297;
+  margin-left: 2rem;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+
+.direita {
+  width: 100%;
+  border-left: 2px solid #1f5297;
+  padding-right: 2rem;
+  margin-left: 0.5rem;
+  padding-left: 20px;
+}
+
+.curriculo-child {
+  position: relative;
+}
+
+.titulo-telatoda {
+  width: 100%;
+}
+
+.circulo {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 10;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
 /* media querry menu responsivo*/
-/* tela maior que 1200px*/
-@media (min-width: 1200px) {
+/* tela maior que 1250*/
+@media (min-width: 1250) {
   .mininavbar {
     display: none;
   }
@@ -407,8 +517,8 @@ div.container-4 {
   }
 }
 
-/* tela menor que 1200px*/
-@media (max-width: 1200px) {
+/* tela menor que 1350px*/
+@media (max-width: 1350px) {
   .navegacao {
     display: none;
   }
@@ -423,7 +533,7 @@ div.container-4 {
   header {
     width: 0px;
     height: 0;
-    background-color: #040b14;
+    background-color: #f1f1f1;
   }
 
   section.module.parallax p {
@@ -474,6 +584,7 @@ div.container-4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 0 !important;
   }
 
   .container-4 div {
