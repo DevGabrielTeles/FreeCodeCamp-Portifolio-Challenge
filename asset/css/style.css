@@ -17,6 +17,17 @@ body {
   line-height: 1.4;
 }
 
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.6;
+}
+
 header {
   display: block;
   z-index: 1;
@@ -117,6 +128,21 @@ nav {
 nav i {
   margin-right: 10px;
   color: #6f7179;
+}
+
+div.fgh {
+  display: flex;
+  width: 100%;
+}
+
+div.fgh-2 {
+  display: flex;
+  width: 50%;
+  margin-left: 1rem;
+}
+
+div.fgh-2 li {
+  margin: 1.5rem;
 }
 
 /* responsivo/configurar media querry */
@@ -246,7 +272,7 @@ section.module.parallax-1 {
 }
 
 .module.content {
-  background: cornflowerblue;
+  background: rgb(255, 255, 255);
   z-index: 0.2;
 }
 
@@ -277,23 +303,95 @@ section.module.parallax p {
   font-size: 26px;
   font-family: Poppins, monospace, sans-serif;
   font-weight: 100;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
 }
 
-.digitando {
-  animation: piscarCursor 500ms infinite normal;
+/* Sobre */
+h2 {
+  font-size: 2rem;
+
+  color: #1454dd;
 }
-@keyframes piscarCursor {
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
+
+h4 {
+  font-size: 1.5rem;
+
+  color: #1454dd;
+}
+
+/* Habilidades */
+.module {
+  margin: 0 auto;
+  padding: 3rem;
+  text-align: justify;
+  z-index: 0.2;
+}
+
+.module.content2 {
+  background: #f5f8fd;
+  z-index: 0.2;
+}
+
+div.container-2 {
+  background-color: #f1f1f1;
+}
+
+div.container-2 p,
+div.container-2 h2 {
+  background-color: #f1f1f1;
+  margin-left: 300px;
+  text-align: justify;
+}
+
+img {
+  width: 400px;
+}
+
+section.module.module.content {
+  background-color: #f1f1f1;
+}
+
+section.abc {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+section.abc img {
+  margin-left: 350px;
+  background-color: #f1f1f1;
+}
+
+.cde {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+section.module.content2 {
+  background-color: #f1f1f1;
+}
+
+section.asd {
+  display: flex;
+  flex-direction: column;
+}
+
+div.container-4 img {
+  width: 100px;
+  justify-content: center;
+  align-content: center;
+}
+
+div.container-4 {
+  background: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container-3 div {
+  padding-bottom: 30px;
 }
 
 /* media querry menu responsivo*/
-
 /* tela maior que 1200px*/
 @media (min-width: 1200px) {
   .mininavbar {
@@ -301,7 +399,7 @@ section.module.parallax p {
   }
   section {
     position: relative;
-    left: 300px;
+    left: 0;
   }
   section.background {
     position: relative;
@@ -327,26 +425,86 @@ section.module.parallax p {
     height: 0;
     background-color: #040b14;
   }
-  /* animação da escrita em tela pequena */
+
   section.module.parallax p {
     margin-left: 0;
+    text-align: justify;
+    padding-top: 5px;
     width: fit-content !important;
     color: white;
-    font-size: 26px;
+    font-size: 17px;
     font-family: Poppins, monospace, sans-serif;
     font-weight: 100;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
   }
 
-  .digitando {
-    animation: piscarCursor 500ms infinite normal;
+  div.container-2 p,
+  div.container-2 h2 {
+    background-color: #f1f1f1;
+    margin-left: 0px;
+    text-align: justify;
   }
-  @keyframes piscarCursor {
-    from {
-      border-right-color: rgba(255, 255, 255, 0.75);
-    }
-    to {
-      border-right-color: transparent;
-    }
+
+  section.abc {
+    display: block;
+    background-color: #f1f1f1;
+  }
+
+  section.abc img {
+    background-color: #f1f1f1;
+  }
+
+  section.abc p {
+    padding-bottom: 40px;
+  }
+  div.fgh {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+  }
+  div.container-4 img {
+    width: 100px !important;
+    justify-content: center !important;
+    align-content: center;
+    padding: 0 !important;
+    margin: 10px;
+  }
+
+  div.container-4 {
+    background: #f1f1f1 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container-4 div {
+    padding-bottom: 0px;
+  }
+
+  section.abc img {
+    margin: 0 auto !important;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+/* tela menor que 400px*/
+@media (max-width: 400px) {
+  div.container-4 img {
+    width: 80px !important;
+    justify-content: center !important;
+    align-content: center;
+    padding: 0 !important;
+  }
+
+  div.container-4 {
+    background: #f1f1f1 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container-4 div {
+    padding-bottom: 0px;
   }
 }
