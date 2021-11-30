@@ -409,43 +409,160 @@ div.container-4 {
 }
 
 /* seção curriculo */
-h5 {
-  margin-left: 300px;
+h5.ala {
   font-size: 2rem;
   color: #1454dd;
   padding-bottom: 20px;
-  padding-top: 48px;
+  margin-left: 300px;
+  padding-top: 0 !important;
   background-color: rgb(255, 255, 255);
   padding-bottom: 60px;
 }
 
-h6 {
+h4.affe {
   position: relative;
-  top: -15px;
+  top: -60px;
+  left: 0px;
   font-size: 1.5rem;
   color: #1454dd;
 }
 
-div.container-5 p,
-div.container-5 h2 {
-  background-color: #ffffff;
-  margin-left: 300px;
-  text-align: justify;
+h4.affe2 {
+  position: relative;
+  top: 40px;
+  left: 0px;
+  font-size: 1.5rem;
+  color: #1454dd;
 }
 
-.forcaquevai {
-  margin-left: 300px !important;
+h6.affe2 {
+  position: relative;
+  top: 60px;
+  left: 0px;
+  font-size: 1.5rem;
+  color: #1454dd;
 }
+
+p.affe2 {
+  position: relative;
+  top: 70px;
+  left: 0px;
+}
+
+ul.affe2 {
+  position: relative;
+  top: 70px;
+  left: 0px;
+}
+
+h6.aff {
+  position: relative;
+  top: -45px;
+  font-size: 1.5rem;
+  color: #1454dd;
+}
+
+div.curriculo-child.esquerda p.tempz {
+  position: relative;
+  top: -60px;
+  background: #e4edf9;
+  font-weight: bold;
+  width: fit-content;
+  padding: 4px;
+}
+
+div.curriculo-child.esquerda p.nomz {
+  position: relative;
+  top: -60px;
+  width: fit-content;
+  padding: 4px;
+}
+
+h6.aff5 {
+  position: relative;
+  top: -45px;
+  font-size: 1.5rem;
+  color: #1454dd;
+}
+
+div.curriculo-child.esquerda p.tempz5 {
+  position: relative;
+  top: -60px;
+  background: #e4edf9;
+  font-weight: bold;
+  width: fit-content;
+  padding: 4px;
+}
+
+div.curriculo-child.direita p.tempz5 {
+  position: relative;
+  top: -10px;
+
+  background: #e4edf9;
+  font-weight: bold;
+  width: fit-content;
+  padding: 4px;
+}
+
+div.curriculo-child.esquerda p.nomz5 {
+  position: relative;
+  top: -70px;
+  width: fit-content;
+  padding: 4px;
+}
+
+div.curriculo-child.esquerda ul.nomz5 {
+  position: relative;
+  top: -70px;
+  width: fit-content;
+  padding: 4px;
+  list-style: upper-roman;
+  text-decoration: solid;
+}
+
+div.curriculo-child.esquerda ul.nomz {
+  position: relative;
+  top: -70px;
+  width: fit-content;
+  padding: 4px;
+  list-style: upper-roman;
+  text-decoration: solid;
+}
+
+h6 {
+  position: relative;
+  top: -12px;
+  font-size: 1.5rem;
+  color: #1454dd;
+}
+
 .module2 {
-  padding-left: 50px;
   margin: 0 auto;
+  padding: 3rem;
   text-align: justify;
   z-index: 0.2;
+  padding-bottom: 10px !important;
+  margin-bottom: 15px;
 }
 
 section#curriculo p.nomi {
   position: relative;
   top: -20px;
+}
+
+section#curriculo p.nomizz {
+  position: relative;
+  top: -55px;
+}
+
+section#curriculo p.nomizz3 {
+  position: relative;
+  top: -15px;
+}
+
+section#curriculo ul.nomizz {
+  position: relative;
+  top: -45px;
 }
 
 section#curriculo ul {
@@ -464,6 +581,21 @@ section.curriculo {
   grid-template-columns: 1fr 1fr;
   text-align: justify;
   padding: 40px;
+}
+
+.forcaquevai {
+  margin-left: 300px !important;
+}
+
+.forcaquevai2 {
+  margin-left: 300px !important;
+}
+
+div.container-10 p,
+div.container-10 h2 {
+  background-color: #ffffff;
+  margin-left: 300px;
+  text-align: justify;
 }
 
 .esquerda {
@@ -497,13 +629,150 @@ section.curriculo {
   height: 16px;
   border-radius: 50px;
   left: -9px;
-  top: 10;
   background: #fff;
   border: 2px solid #1f5297;
 }
+
+.circulo3 {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 90px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.circulo3 {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 90px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.circulo4 {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 300px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.circulo5 {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -28.5px;
+  top: 10px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.tracinho {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 5px;
+  border-radius: 50px;
+  left: -9px;
+  top: 187px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.tracinho2 {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 5px;
+  border-radius: 50px;
+  left: -9px;
+  top: 255px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.quadrado3 {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -28.8px;
+  top: 10px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.quadrado {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -9px;
+  top: -50px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+.quadrado2 {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: -9px;
+  top: 370px;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+/* portifolio */
+.pai {
+  border: 2px solid #000;
+  margin-left: 300px;
+  display: flex;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.pai__filho {
+  border: 2px solid rgb(253, 14, 14);
+  width: 275px;
+  height: 305px;
+  margin-bottom: 15px;
+}
+
+.pai__filho-kid {
+  border: 2px solid rgb(167, 13, 214);
+  display: flex;
+  flex-direction: column;
+  width: 275px;
+  height: 275px;
+  margin-bottom: 15px;
+}
+
+.pai__filho p {
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* media querry menu responsivo*/
-/* tela maior que 1250*/
-@media (min-width: 1250) {
+/* tela maior que 1200*/
+@media (min-width: 1200px) {
   .mininavbar {
     display: none;
   }
@@ -517,8 +786,8 @@ section.curriculo {
   }
 }
 
-/* tela menor que 1350px*/
-@media (max-width: 1350px) {
+/* tela menor que 1200*/
+@media (max-width: 1200px) {
   .navegacao {
     display: none;
   }
@@ -557,15 +826,20 @@ section.curriculo {
   section.abc {
     display: block;
     background-color: #f1f1f1;
+    margin: 0 auto !important;
   }
 
   section.abc img {
+    margin-left: 25%;
+    margin-right: 50%;
+    width: auto;
     background-color: #f1f1f1;
   }
 
   section.abc p {
     padding-bottom: 40px;
   }
+
   div.fgh {
     display: flex;
     flex-direction: column;
@@ -592,10 +866,79 @@ section.curriculo {
   }
 
   section.abc img {
-    margin: 0 auto !important;
     background-color: #f1f1f1;
-    width: 100%;
+    width: 50%;
     padding: 30px;
+  }
+
+  section.curriculo {
+    background-color: #ffffff;
+    margin-left: 0;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
+    padding: 40px;
+  }
+
+  h5.ala {
+    font-size: 2rem;
+    color: #1454dd;
+    padding-bottom: 20px;
+    margin-left: 0;
+    padding-top: 0 !important;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 60px;
+  }
+
+  .forcaquevai {
+    margin-left: 0 !important;
+  }
+  .forcaquevai2 {
+    margin-left: 0 !important;
+  }
+
+  .pai {
+    margin-left: 0px;
+  }
+}
+
+/* tela menor que 700px*/
+@media (max-width: 700px) {
+  section.curriculo {
+    background-color: #ffffff;
+    margin-left: 0;
+    color: white;
+    display: block;
+    text-align: justify;
+    padding: 40px;
+  }
+
+  .esquerda {
+    width: 100%;
+    border-left: 2px solid #1f5297;
+    margin-left: 2rem;
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+
+  .direita {
+    width: 100%;
+    border-left: 2px solid #1f5297;
+    padding-right: 2rem;
+    margin-left: 2rem;
+    padding-left: 20px;
+  }
+
+  section#curriculo ul {
+    list-style: none;
+    padding-bottom: 100px;
+  }
+
+  section.abc img {
+    background-color: #f1f1f1;
+    width: 80%;
+    margin: 0 auto !important;
   }
 }
 
