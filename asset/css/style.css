@@ -777,6 +777,7 @@ div.container-10 h2 {
 }
 
 .pai__filho h4 {
+  width: auto;
   margin: 10px;
   text-align: center;
   color: #1f5297;
@@ -789,7 +790,7 @@ div.container-10 h2 {
 
 .pai__filho img {
   text-align: center;
-  width: 100%;
+  width: ;
 }
 
 /* contato */
